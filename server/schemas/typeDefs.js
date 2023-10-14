@@ -1,6 +1,6 @@
-const { graphql } = require('appolo-server-express');
+const { gql } = require("apollo-server-express");
 
-const typeDefs = graphql`
+const typeDefs = gql`
     type Auth {
         token: ID!
         user: User
