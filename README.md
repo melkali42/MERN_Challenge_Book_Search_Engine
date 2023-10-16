@@ -2,44 +2,43 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+Your Challenge this week is emblematic of the fact that most modern websites are driven by two things: data and user demands. This shouldn't come as a surprise, as the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This week, you’ll take a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end.
 
-## Table of Contents (Optional)
+To fulfill the Challenge, you’ll need to do the following:
+-Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
+-Modify the existing authentication middleware so that it works in the context of a GraphQL API.
+-Create an Apollo Provider so that requests can communicate with an Apollo Server.
+-Deploy the application to Heroku.
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+USER Story
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+AS AN avid reader
+I WANT to search for new books to read
+SO THAT I can keep a list of books to purchase
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+No Installation necessary
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+This is the URL for the deployed Heroku application: https://mern-book-search-challenge-e76276941992.herokuapp.com/
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+This is the URL for our GitHub repository for this challenge: https://github.com/melkali42/MERN_Challenge_Book_Search_Engine
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![Screenshot1](https://github.com/melkali42/MERN_Challenge_Book_Search_Engine/blob/main/client/public/build%20success.PNG)
+![Screenshot2](https://github.com/melkali42/MERN_Challenge_Book_Search_Engine/blob/main/client/public/VS%20code%20compiled%20successfully.PNG)
+![Screenshot3](https://github.com/melkali42/MERN_Challenge_Book_Search_Engine/blob/main/client/public/Successful%20Heroku%20deployment.PNG)
+![Screenshot4](https://github.com/melkali42/MERN_Challenge_Book_Search_Engine/blob/main/client/public/Heroku%20deployment.PNG)
+![Screenshot5](https://github.com/melkali42/MERN_Challenge_Book_Search_Engine/blob/main/client/public/Google%20Book%20search%20app.PNG)
+
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Create by Melissa Kalish. I conducted several searches in https://www.google.com/ and utilized https://stackoverflow.com/ and https://www.w3schools.com/ for reserach, viewing others code examples, questions and answers. I used https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide to create the challenge README for the repository.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com
+© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
