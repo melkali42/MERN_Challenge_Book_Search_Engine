@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container, Card, Button, Row, Col } from 'react-bootstrap';
 import { useQuery, useMutation } from '@apollo/react-hooks';
-import { QUERY_ME } from '../../utils/queries';
-import { REMOVE_BOOK } from '../../utils/mutations';
-import Auth from '../../utils/auth';
-import { removeBookId } from '../../utils/localStorage';
+import { QUERY_ME } from '../utils/queries';
+import { REMOVE_BOOK } from '../utils/mutations';
+import Auth from '../utils/auth';
+import { removeBookId } from '../utils/localStorage';
 
 const SavedBooks = () => {
 const { loading, data } = useQuery(QUERY_ME);
@@ -17,7 +17,7 @@ const handleDeleteBook = async (bookId) => {
     return false;
   }
   try {
-    const { data } = await removeBook({
+     await removeBook({
       variables: { bookId }
     });
 
